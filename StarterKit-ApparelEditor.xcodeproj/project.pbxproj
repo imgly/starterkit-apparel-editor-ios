@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1658763A7B09C3CF1430D5F3 /* apparel-ui-b-empty.scene in Resources */ = {isa = PBXBuildFile; fileRef = 40C454D9670EE240CBF38F44 /* apparel-ui-b-empty.scene */; };
+		278981071420C8772FAE6268 /* Dock+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADA0908B02057AD4BD14D7 /* Dock+Apparel.swift */; };
+		37FD1E1191183712048D9F6E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F006AA3B0D0C48C04417194 /* Secrets.swift */; };
+		666D01E3923D7D1BA2928847 /* IMGLYUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4600D7F237068CB9AAA33F88 /* IMGLYUI */; };
+		6EBB9B2D3099652EDD3CC74B /* OnExport+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1566975708FEF49A20CBE5 /* OnExport+Apparel.swift */; };
+		7BF46D4F6FB6EB18673B63A9 /* ApparelEditorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5BC84296049751DDDC4C9 /* ApparelEditorConfiguration.swift */; };
+		97DF02C09275D619E7185413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5000382DAAFCE01D0AF34184 /* ContentView.swift */; };
+		9A921AE5A3B87753865D635C /* StarterKit_ApparelEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782389BEFEEB54F573894E86 /* StarterKit_ApparelEditorApp.swift */; };
+		9BBFC69DE576B199265F123D /* OnChanged+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1975E0102E626F56B8344948 /* OnChanged+Apparel.swift */; };
+		ADBD1DA0368073CD2CB9C1BD /* InspectorBar+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EE0FB95937CDCF567C265 /* InspectorBar+Apparel.swift */; };
+		BCEA13F06E3A5578F6B1AD58 /* NavigationBar+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A50DD998A68E9B003EFCC /* NavigationBar+Apparel.swift */; };
+		C5626C58FAC611ABE9E6B7C4 /* ApparelEditorStarterKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4197DDD63DEB8052DE7098F /* ApparelEditorStarterKit.swift */; };
+		F3AB408E8C2F3C39A672C446 /* CanvasMenu+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2979B545D52B989D42311 /* CanvasMenu+Apparel.swift */; };
+		F7BF4594EB66DA0E6D0F4FEB /* OnCreate+Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69A6621BA925E124617AD89 /* OnCreate+Apparel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F006AA3B0D0C48C04417194 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		163A50DD998A68E9B003EFCC /* NavigationBar+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar+Apparel.swift"; sourceTree = "<group>"; };
+		1975E0102E626F56B8344948 /* OnChanged+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnChanged+Apparel.swift"; sourceTree = "<group>"; };
+		2CC2979B545D52B989D42311 /* CanvasMenu+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanvasMenu+Apparel.swift"; sourceTree = "<group>"; };
+		3F5826AE6DA40850B54D1DA0 /* StarterKit-ApparelEditor.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "StarterKit-ApparelEditor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C454D9670EE240CBF38F44 /* apparel-ui-b-empty.scene */ = {isa = PBXFileReference; path = "apparel-ui-b-empty.scene"; sourceTree = "<group>"; };
+		45ADA0908B02057AD4BD14D7 /* Dock+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dock+Apparel.swift"; sourceTree = "<group>"; };
+		5000382DAAFCE01D0AF34184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		782389BEFEEB54F573894E86 /* StarterKit_ApparelEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterKit_ApparelEditorApp.swift; sourceTree = "<group>"; };
+		B02EE0FB95937CDCF567C265 /* InspectorBar+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InspectorBar+Apparel.swift"; sourceTree = "<group>"; };
+		C2D5BC84296049751DDDC4C9 /* ApparelEditorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparelEditorConfiguration.swift; sourceTree = "<group>"; };
+		CB1566975708FEF49A20CBE5 /* OnExport+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnExport+Apparel.swift"; sourceTree = "<group>"; };
+		E69A6621BA925E124617AD89 /* OnCreate+Apparel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnCreate+Apparel.swift"; sourceTree = "<group>"; };
+		F4197DDD63DEB8052DE7098F /* ApparelEditorStarterKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparelEditorStarterKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D760A472177F08678DBD8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666D01E3923D7D1BA2928847 /* IMGLYUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A8C49B28588A77C36543D7 /* StarterKit-ApparelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				5000382DAAFCE01D0AF34184 /* ContentView.swift */,
+				0F006AA3B0D0C48C04417194 /* Secrets.swift */,
+				782389BEFEEB54F573894E86 /* StarterKit_ApparelEditorApp.swift */,
+			);
+			path = "StarterKit-ApparelEditor";
+			sourceTree = "<group>";
+		};
+		8EA5D624F49E2ABB7A5808DA /* callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				1975E0102E626F56B8344948 /* OnChanged+Apparel.swift */,
+				E69A6621BA925E124617AD89 /* OnCreate+Apparel.swift */,
+				CB1566975708FEF49A20CBE5 /* OnExport+Apparel.swift */,
+			);
+			path = callbacks;
+			sourceTree = "<group>";
+		};
+		A27D3ED56A92496790D79505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F5826AE6DA40850B54D1DA0 /* StarterKit-ApparelEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EF835AC49CB5129F36D691 /* StarterKit */ = {
+			isa = PBXGroup;
+			children = (
+				40C454D9670EE240CBF38F44 /* apparel-ui-b-empty.scene */,
+				C2D5BC84296049751DDDC4C9 /* ApparelEditorConfiguration.swift */,
+				F4197DDD63DEB8052DE7098F /* ApparelEditorStarterKit.swift */,
+				8EA5D624F49E2ABB7A5808DA /* callbacks */,
+				E2CCED234C4F274A1DF86EEE /* components */,
+			);
+			path = StarterKit;
+			sourceTree = "<group>";
+		};
+		C54A7CB78AE2D007C971AA39 = {
+			isa = PBXGroup;
+			children = (
+				A6EF835AC49CB5129F36D691 /* StarterKit */,
+				38A8C49B28588A77C36543D7 /* StarterKit-ApparelEditor */,
+				A27D3ED56A92496790D79505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CCED234C4F274A1DF86EEE /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2CC2979B545D52B989D42311 /* CanvasMenu+Apparel.swift */,
+				45ADA0908B02057AD4BD14D7 /* Dock+Apparel.swift */,
+				B02EE0FB95937CDCF567C265 /* InspectorBar+Apparel.swift */,
+				163A50DD998A68E9B003EFCC /* NavigationBar+Apparel.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B5226247D1CBBDF96BD9CF /* StarterKit-ApparelEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C96CD925E0AF8B8B0FFCCE /* Build configuration list for PBXNativeTarget "StarterKit-ApparelEditor" */;
+			buildPhases = (
+				7C634790544E8D097D300626 /* Sources */,
+				AA1C9697528C82B6337C736D /* Resources */,
+				8D760A472177F08678DBD8F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarterKit-ApparelEditor";
+			packageProductDependencies = (
+				4600D7F237068CB9AAA33F88 /* IMGLYUI */,
+			);
+			productName = "StarterKit-ApparelEditor";
+			productReference = 3F5826AE6DA40850B54D1DA0 /* StarterKit-ApparelEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06737CAE276654D540DE69C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 4844F9911D840616C0B39575 /* Build configuration list for PBXProject "StarterKit-ApparelEditor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C54A7CB78AE2D007C971AA39;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2E7F12D96285FE122A75C1A9 /* XCRemoteSwiftPackageReference "IMGLYUI-swift" */,
+			);
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B5226247D1CBBDF96BD9CF /* StarterKit-ApparelEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1C9697528C82B6337C736D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1658763A7B09C3CF1430D5F3 /* apparel-ui-b-empty.scene in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C634790544E8D097D300626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF46D4F6FB6EB18673B63A9 /* ApparelEditorConfiguration.swift in Sources */,
+				C5626C58FAC611ABE9E6B7C4 /* ApparelEditorStarterKit.swift in Sources */,
+				F3AB408E8C2F3C39A672C446 /* CanvasMenu+Apparel.swift in Sources */,
+				97DF02C09275D619E7185413 /* ContentView.swift in Sources */,
+				278981071420C8772FAE6268 /* Dock+Apparel.swift in Sources */,
+				ADBD1DA0368073CD2CB9C1BD /* InspectorBar+Apparel.swift in Sources */,
+				BCEA13F06E3A5578F6B1AD58 /* NavigationBar+Apparel.swift in Sources */,
+				9BBFC69DE576B199265F123D /* OnChanged+Apparel.swift in Sources */,
+				F7BF4594EB66DA0E6D0F4FEB /* OnCreate+Apparel.swift in Sources */,
+				6EBB9B2D3099652EDD3CC74B /* OnExport+Apparel.swift in Sources */,
+				37FD1E1191183712048D9F6E /* Secrets.swift in Sources */,
+				9A921AE5A3B87753865D635C /* StarterKit_ApparelEditorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B93D0391EA943452C0A97D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		BE55799166F991196BCB67FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ly.img.starterkit.apparel-editor";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9CF64FDE4C076B050196A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ly.img.starterkit.apparel-editor";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEFA686DCA1CBA7E898157B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4844F9911D840616C0B39575 /* Build configuration list for PBXProject "StarterKit-ApparelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93D0391EA943452C0A97D48 /* Debug */,
+				FEFA686DCA1CBA7E898157B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9C96CD925E0AF8B8B0FFCCE /* Build configuration list for PBXNativeTarget "StarterKit-ApparelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CF64FDE4C076B050196A20 /* Debug */,
+				BE55799166F991196BCB67FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E7F12D96285FE122A75C1A9 /* XCRemoteSwiftPackageReference "IMGLYUI-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/imgly/IMGLYUI-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.74.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4600D7F237068CB9AAA33F88 /* IMGLYUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E7F12D96285FE122A75C1A9 /* XCRemoteSwiftPackageReference "IMGLYUI-swift" */;
+			productName = IMGLYUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D06737CAE276654D540DE69C /* Project object */;
+}
